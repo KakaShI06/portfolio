@@ -16,8 +16,8 @@ function ExperienceCard({
   points,
 }: Props) {
   return (
-    <div className='experience-card lg:min-w-[80vh] snap-center'>
-      <div className='bg-gray-900 p-4 rounded-lg max-w-[80vh] lg:w-[1000px] lg:mx-auto lg:p-10'>
+    <div className='experience-card snap-center'>
+      <div className='bg-gray-900 p-4 rounded-lg max-w-[1000px] lg:mx-auto lg:p-10'>
         <h3 className='text-blue-500 text-center font-semibold uppercase text-xl lg:text-3xl'>
           {companyName}
         </h3>

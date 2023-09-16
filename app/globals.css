@@ -68,6 +68,14 @@ body {
   text-decoration: underline;
 }
 
+.grid-col-system {
+  display: grid;
+  grid-auto-flow: column;
+  /* grid-template-columns: 1fr; */
+  overflow-x: scroll;
+  grid-auto-columns: 100%;
+}
+
 ul{
   display: block;
   list-style-type: disc;

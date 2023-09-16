@@ -4,10 +4,11 @@ import Skills from '@/page-containers/Skills'
 import HomeProfile from '@/components/HomeProfile'
 import Experience from '@/page-containers/Experience'
 import ContactMe from '@/page-containers/ContactMe'
+import Projects from '@/page-containers/Projects'
 
 export default function Home() {
   return (
-    <main className='h-screen snap-y snap-mandatory overflow-y-scroll z-0'>
+    <main className='h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0'>
       <Header />
       <section id='profile' className='snap-start'>
         <HomeProfile />
@@ -24,6 +25,10 @@ export default function Home() {
       <section id='experience' className='snap-center'>
         <Experience />
       </section>
+
+      <section id='project' className='snap-center'>
+        <Projects />
+      </section> 
 
       <section id='contact-me' className='snap-center'>
         <ContactMe />

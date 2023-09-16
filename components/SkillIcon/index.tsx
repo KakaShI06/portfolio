@@ -3,30 +3,30 @@
 import { motion } from 'framer-motion'
 
 type Props = {
-  name: string,
-  url: string,
-  score: number,
+  name: string
+  url: string
+  score: number
   leftDirection?: boolean
 }
 
 function SkillIcon({ name, url, score, leftDirection }: Props) {
   return (
-    <div
+    <motion.div
+      initial={{
+        opacity: 0,
+        x: leftDirection ? -200 : 200,
+      }}
+      whileInView={{
+        x: 0,
+        opacity: 1,
+      }}
+      viewport={{ once: true }}
+      transition={{
+        duration: 1,
+      }}
       className='group relative flex cursor-pointer justify-center overflow-hidden'
     >
-      <motion.img 
-        initial={{
-          opacity: 0,
-          x: leftDirection ? -200 : 200
-        }}
-        animate={{
-          x: 0,
-          opacity: 1
-        }}
-        viewport={{ once: true }}
-        transition={{
-          duration: 1
-        }}
+      <img
         src={url}
         alt={name}
         className='md:w-[20px] md:h-[20px] lg:w-28 lg:h-28 border rounded-full border-blue-400 bg-white object-contain group-hover:flex transition duration-300 ease-in-out'
@@ -35,7 +35,7 @@ function SkillIcon({ name, url, score, leftDirection }: Props) {
         <p className='text-center font-extrabold text-blue-500'>{name}</p>
         <p className='text-center font-extrabold text-blue-500'>{`${score} %`}</p>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
