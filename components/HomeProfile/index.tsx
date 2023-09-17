@@ -19,7 +19,7 @@ function HomeProfile({}: Props) {
   })
 
   return (
-    <div className='h-screen flex justify-center items-center text-center flex-col space-y-6 overflow-hidden'>
+    <div className='min-h-screen flex justify-center items-center text-center flex-col space-y-6 overflow-hidden'>
       <BgCircle />
       <Image
         src={

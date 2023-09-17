@@ -5,7 +5,7 @@ type Props = {}
 
 function Skills({}: Props) {
   return (
-    <section className='h-screen relative pt-2 flex flex-col justify-center items-center text-center lg:flex-row lg:justify-around'>
+    <section className='min-h-screen relative pt-2 flex flex-col justify-center items-center text-center lg:flex-row lg:justify-around'>
       <h3 className='page-heading'>Skills</h3>
       <h4 className='page-sub-heading'>Hover Over a skill for currency proficiency</h4>
       <div className='w-full p-8'>

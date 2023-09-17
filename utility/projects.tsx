@@ -9,7 +9,7 @@ const projectsInformation = [
     description:
       'Turn your favorite videos into shareable gifs with GifMaker. Our easy-to-use app lets you quickly convert videos to gifs without any hassle. Choose your favorite clip, select the start and end points, and let GifMaker do the rest. Share your newly created gifs with your friends and family on social media or messaging apps. With GifMaker, the possibilities are endless.',
     ready: true,
-    techstack: ['Reactjs', 'Nextjs', 'ffmpeg'],
+    techStack: ['Reactjs', 'Nextjs', 'ffmpeg'],
   },
   {
     name: 'Reddit Reels Automator',
@@ -19,9 +19,9 @@ const projectsInformation = [
     projectPic:
       'https://res.cloudinary.com/doql129vl/image/upload/v1694712579/reel-automator_x64hed.png',
     description:
-      "Elevate video content creation through Python automation. Utilize Selenium for scraping Reddit's top posts and MoviePy for precise video editing. Extract essential data from Reddit, such as titles and media, and combine it seamlessly with custom voiceovers generated through text-to-speech by using pyttsx3. Optionally, enhance videos with visual effects for a polished look. This streamlined process empowers content creators and storytellers to efficiently produce high-quality videos that showcase Reddit's best content in a professional and engaging manner. Whether for educational, entertainment, or marketing purposes, this automation approach ensures visually appealing and narratively compelling video content.",
+      "Elevate video content creation through Python automation. Utilize Selenium and praw for scraping Reddit's top posts and MoviePy for precise video editing. Adding voice through text-to-speech library called pyttsx3. This automation approach ensures visually appealing and narratively compelling video content.",
     ready: true,
-    techstack: ['Python', 'Moviepy', 'Selenium'],
+    techStack: ['Python', 'Moviepy', 'Selenium'],
   },
   {
     name: 'Youtube Clone',
@@ -32,18 +32,17 @@ const projectsInformation = [
       'https://res.cloudinary.com/doql129vl/image/upload/v1694713155/you-tube-player_dpyjhk.png',
     description: 'Reddit Automation to Create Reels or Youtube Shorts',
     ready: true,
-    techStack: ['Reactjs', 'RapidApi', 'Material-Ui']
+    techStack: ['Reactjs', 'RapidApi', 'Material-Ui'],
   },
   {
     name: 'Blog Website',
     websiteLink: '',
     scourceLink: '',
     smallDescription: 'Personalised Blog Website',
-    projectPic:
-      'https://res.cloudinary.com/doql129vl/image/upload/v1694713155/you-tube-player_dpyjhk.png',
-    description: 'Reddit Automation to Create Reels or Youtube Shorts',
+    projectPic: '',
+    description: 'Just a personalised blog website',
     ready: true,
-    techStack: ['Reactjs', 'RapidApi', 'Material-Ui']
+    techStack: ['Nextjs', 'Expressjs', 'Mongodb', 'Aws'],
   },
 ]
 

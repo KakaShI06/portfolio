@@ -8,29 +8,29 @@ import Projects from '@/page-containers/Projects'
 
 export default function Home() {
   return (
-    <main className='h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0'>
+    <main className='overflow-x-hidden z-0'>
       <Header />
-      <section id='profile' className='snap-start'>
+      <section id='profile' className=''>
         <HomeProfile />
       </section>
 
-      <section id='about' className='snap-center'>
+      <section id='about' className=''>
         <About/>
       </section>
 
-      <section id='skills' className='snap-center'>
+      <section id='skills' className=''>
         <Skills />
       </section>
 
-      <section id='experience' className='snap-center'>
+      <section id='experience' className=''>
         <Experience />
       </section>
 
-      <section id='project' className='snap-center'>
+      <section id='project' className=''>
         <Projects />
       </section> 
 
-      <section id='contact-me' className='snap-center'>
+      <section id='contact-me' className=''>
         <ContactMe />
       </section>
     </main>

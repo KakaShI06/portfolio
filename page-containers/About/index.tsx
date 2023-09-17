@@ -6,7 +6,7 @@ type Props = {}
 
 function About({}: Props) {
   return (
-    <section className='h-screen relative pt-2 flex flex-col justify-center items-center text-center lg:flex-row lg:justify-around'>
+    <section className='min-h-screen relative pt-2 flex flex-col justify-center items-center text-center lg:flex-row lg:justify-around'>
       <h3 className='page-heading'>About</h3>
       <motion.img
         initial={{
@@ -25,7 +25,7 @@ function About({}: Props) {
         src='https://res.cloudinary.com/doql129vl/image/upload/v1694429574/kasol_obdhff.jpg'
       />
       <div className='p-4'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis praesentium inventore quae. Adipisci, et illum? Nemo eius sapiente pariatur! Incidunt porro assumenda tempora ipsa in, expedita officia atque corporis quidem.
+        Hi, My Name is Ujjval Priyadarshi and I like making things by code. 
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quidem soluta nulla quia labore incidunt illo eum dolorem necessitatibus aut molestiae, dicta ipsum, consectetur magnam tempora. Dolor deserunt similique itaque?
       </div>
     </section>
