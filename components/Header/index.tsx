@@ -10,7 +10,7 @@ type Props = {}
 
 function Header({}: Props) {
   return (
-    <header className='sticky top-0 flex justify-between max-w-screen-xl mx-auto w-full items-center p-3 z-20'>
+    <header className='fixed lg:sticky top-0 flex justify-between max-w-screen-xl mx-auto w-full items-center p-3 z-20'>
       <motion.div
         className='cursor-pointer'
         initial={{

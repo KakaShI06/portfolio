@@ -26,7 +26,11 @@ function ProjectCard({
     <div className='snap-center'>
       <div className='flex flex-col lg:flex-row gap-3'>
         <img
-          src={projectPic}
+          src={
+            ready
+              ? projectPic
+              : 'https://res.cloudinary.com/doql129vl/image/upload/v1695031594/wip_s9djee.webp'
+          }
           alt={name}
           width='50%'
           className='mx-auto lg:mx-0'

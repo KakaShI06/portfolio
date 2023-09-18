@@ -41,7 +41,7 @@ const projectsInformation = [
     smallDescription: 'Personalised Blog Website',
     projectPic: '',
     description: 'Just a personalised blog website',
-    ready: true,
+    ready: false,
     techStack: ['Nextjs', 'Expressjs', 'Mongodb', 'Aws'],
   },
 ]
