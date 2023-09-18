@@ -62,8 +62,8 @@
 }
 
 body {
-  background-color: var(--foreground-rgb);
-  color: var(--body-text-color);
+  background-color: #040615;
+  color: white;
 }
 
 .page-heading {
