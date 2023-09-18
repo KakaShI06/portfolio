@@ -9,16 +9,13 @@ type Props = {}
 
 function ContactMe({}: Props) {
   return (
-    <section className='h-screen relative pt-2'>
+    <section className='lg:h-screen min-h-screen mt-20 lg:mt-0 relative pt-2 lg:flex lg:flex-col lg:justify-between'>
       <h3 className='page-heading w-full'>Contact Me</h3>
 
-      <div className='rounded-xl p-8 absolute top-[100px] w-full flex h-3/4 gap-4'>
-        <div className='flex-grow flex my-auto'>
-          <EmailForm />
-        </div>
-        <div className='flex-grow text-right lg:w-1/2'>
-          <h1 className='text-3xl font-bold underline'>Send Me a message</h1>
-          <h3 className='text-right text-lg font-semibold'>
+      <div className='rounded-xl mt-16 p-8 top-[100px] w-full flex flex-col lg:flex-row h-3/4 gap-4 items-center'>
+        <div className='flex-grow text-left lg:w-1/2'>
+          <h1 className='text-2xl font-bold underline my-5'>Send Me a message</h1>
+          <h3 className='text-lg font-semibold'>
             Got a question or proposal, or just want to say hello? Go ahead
           </h3>
           <p className='mt-6'>
@@ -33,6 +30,9 @@ function ContactMe({}: Props) {
           </p>
 
           <SocialIcons />
+        </div>
+        <div className='flex-grow flex my-auto w-full lg:w-1/2'>
+          <EmailForm />
         </div>
       </div>
       <Footer />

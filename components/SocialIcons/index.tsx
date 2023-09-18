@@ -6,7 +6,7 @@ type Props = {}
 
 function SocialIcons({}: Props) {
   return (
-    <div className='flex mt-6 gap-4 justify-center lg:justify-end'>
+    <div className='flex mt-6 gap-4 justify-center'>
       <SocialIcon network='email' url='mailto:ujjvalpriyadarshi06@gmail.com' />
       <SocialIcon
         network='github'

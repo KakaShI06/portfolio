@@ -19,7 +19,7 @@ function HomeProfile({}: Props) {
   })
 
   return (
-    <div className='min-h-screen flex justify-center items-center text-center flex-col space-y-6 overflow-hidden'>
+    <div className='lg:h-screen min-h-screen flex justify-center items-center text-center flex-col space-y-6 overflow-hidden'>
       <BgCircle />
       <Image
         src={
@@ -39,7 +39,7 @@ function HomeProfile({}: Props) {
           <Cursor cursorColor='#0000eb' />
         </h1>
       </div>
-      <div className='flex gap-4 justify-center w-full z-20'>
+      <div className='flex lg:gap-4 justify-center w-full z-20'>
         <Link href={'#about'}>
           <button className='homeBtn'>About</button>
         </Link>

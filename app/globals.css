@@ -9,18 +9,21 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
   --text-color-gradient: linear-gradient(97deg, rgb(255, 255, 255) 0%, rgb(127, 182, 213) 100%);
+  --primary: rebeccapurple;
+  --secondary: cornflowerblue;
 }
 
+
 @layer components {
-  .homeBtn{
+  .homeBtn {
     @apply p-2 text-sm rounded-full uppercase tracking-widest text-blue-400 transition-all hover:text-[#0000eb]/40
   }
 
-  .skill-card{
+  .skill-card {
     @apply p-1 border-none rounded-sm bg-blue-600 text-white
   }
 
-  .project-btn{
+  .project-btn {
     @apply bg-black rounded-lg leading-none px-7 py-4
   }
 }
@@ -33,12 +36,37 @@
   }
 }
 
+@media (min-width: 1024px) {
+
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary) var(--primary);
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: var(--primary);
+    border-radius: 5px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--secondary);
+    border-radius: 14px;
+    border: 3px solid var(--primary);
+  }
+}
+
 body {
   background-color: var(--foreground-rgb);
   color: var(--body-text-color);
 }
 
-.page-heading{
+.page-heading {
   position: absolute;
   letter-spacing: 15px;
   top: 60px;
@@ -50,7 +78,7 @@ body {
   margin-left: 20px;
 }
 
-.page-sub-heading{
+.page-sub-heading {
   position: absolute;
   letter-spacing: 3px;
   top: 100px;
@@ -62,14 +90,14 @@ body {
   margin-left: 20px;
 }
 
-.experience-card{
+.experience-card {
   border-radius: 20px;
   margin: 0 1em;
   flex-shrink: 0;
   width: 100%;
 }
 
-.link-highlight > p > span {
+.link-highlight>p>span {
   color: rgb(111, 131, 196);
   cursor: pointer;
   text-decoration: underline;
@@ -83,7 +111,7 @@ body {
   grid-auto-columns: 100%;
 }
 
-ul{
+ul {
   display: block;
   list-style-type: disc;
   margin-block-start: 1em;
@@ -93,7 +121,7 @@ ul{
   padding-inline-start: 40px;
 }
 
-li > span {
+li>span {
   color: rgb(111, 131, 196);
   cursor: pointer;
   text-decoration: underline;

@@ -9,21 +9,9 @@ type Props = {
   leftDirection?: boolean
 }
 
-function SkillIcon({ name, url, score, leftDirection }: Props) {
+function SkillIcon({ name, url, score }: Props) {
   return (
-    <motion.div
-      initial={{
-        opacity: 0,
-        x: leftDirection ? -200 : 200,
-      }}
-      whileInView={{
-        x: 0,
-        opacity: 1,
-      }}
-      viewport={{ once: true }}
-      transition={{
-        duration: 1,
-      }}
+    <div
       className='group relative flex cursor-pointer justify-center overflow-hidden'
     >
       <img
@@ -35,7 +23,7 @@ function SkillIcon({ name, url, score, leftDirection }: Props) {
         <p className='text-center font-extrabold text-blue-500'>{name}</p>
         <p className='text-center font-extrabold text-blue-500'>{`${score} %`}</p>
       </div>
-    </motion.div>
+    </div>
   )
 }
 

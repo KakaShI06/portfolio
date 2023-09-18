@@ -11,7 +11,7 @@ function Experience({}: Props) {
         Scroll vertically to view more experiences!
       </p>
 
-      <div className='w-full absolute top-28  flex overflow-x-scroll pl-2 pr-2 mt-4 text-left snap-x snap-mandatory lg:pl-10 lg:pr-10'>
+      <div className='w-full absolute top-28  flex overflow-x-scroll pl-2 pr-2 mt-4 text-left snap-x snap-mandatory lg:pl-10 lg:pr-10 lg:h-3/4'>
         {experience.map((company, index) => (
           <ExperienceCard
             key={index}

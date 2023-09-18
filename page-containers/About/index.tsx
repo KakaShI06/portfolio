@@ -6,7 +6,7 @@ type Props = {}
 
 function About({}: Props) {
   return (
-    <section className='min-h-screen relative pt-2 flex flex-col justify-center items-center text-center lg:flex-row lg:justify-around'>
+    <section className='lg:h-screen min-h-screen relative pt-2 flex flex-col justify-center items-center text-center lg:flex-row lg:justify-around'>
       <h3 className='page-heading'>About</h3>
       <motion.img
         initial={{
