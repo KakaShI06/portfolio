@@ -24,7 +24,7 @@ const experience = [
     ],
   },
   {
-    companyName: 'Soochi Techonolgy (Intership)',
+    companyName: 'Soochi Techonology (Internship)',
     duration: "June'21 - Nov'22",
     techstack: ['Python', 'Selenium', 'Machine Learning'],
     points: [
