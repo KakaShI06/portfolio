@@ -30,7 +30,7 @@ const projectsInformation = [
     smallDescription: 'You-Tube clone',
     projectPic:
       'https://res.cloudinary.com/doql129vl/image/upload/v1694713155/you-tube-player_dpyjhk.png',
-    description: 'Reddit Automation to Create Reels or Youtube Shorts',
+    description: 'Created a youtube clone using Reactjs and material-ui',
     ready: true,
     techStack: ['Reactjs', 'RapidApi', 'Material-Ui'],
   },
