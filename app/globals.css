@@ -121,7 +121,7 @@ ul {
   padding-inline-start: 40px;
 }
 
-li>span {
+li> div >span {
   color: rgb(111, 131, 196);
   cursor: pointer;
   text-decoration: underline;

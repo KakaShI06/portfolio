@@ -23,6 +23,7 @@ function About({}: Props) {
         }}
         className='h-[200px] object-contain rounded-md flex-shrink-0 lg:ml-20 lg:w-[300px] lg:h-[375px] mt-32 lg:mt-0'
         src='https://res.cloudinary.com/doql129vl/image/upload/v1694429574/kasol_obdhff.jpg'
+        alt='cover-pic'
       />
       <div className='p-4 text-left'>
         <ul>

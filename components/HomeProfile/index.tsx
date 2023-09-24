@@ -34,22 +34,22 @@ function HomeProfile({}: Props) {
         <h2 className='text-sm uppercase text-blue-400 pb-2 tracking-[12px] text-center ml-1'>
           Software Developer
         </h2>
-        <h1 className='text-2xl lg:text-4xl font-semibold px-10'>
+        <h1 className='text-2xl lg:text-4xl font-semibold px-10 min-h-[70px]'>
           <span className='decorated-text'>{text}</span>
           <Cursor cursorColor='#0000eb' />
         </h1>
       </div>
       <div className='flex lg:gap-4 justify-center w-full z-20'>
-        <Link href={'#about'}>
+        <Link href={'#about'} className='py-4'>
           <button className='homeBtn'>About</button>
         </Link>
-        <Link href={'#skills'}>
+        <Link href={'#skills'} className='py-4'>
           <button className='homeBtn'>Skills</button>
         </Link>
-        <Link href={'#experience'}>
+        <Link href={'#experience'} className='py-4'>
           <button className='homeBtn'>Experience</button>
         </Link>
-        <Link href={'/#project'}>
+        <Link href={'/#project'} className='py-4'>
           <button className='homeBtn'>Project</button>
         </Link>
       </div>
