@@ -51,45 +51,38 @@ const EmailForm: React.FC = () => {
         onSubmit={(e) => sendEmail(e)}
         className='flex flex-col text-left gap-2 w-full'
       >
-        <label>Name</label>
+        <label htmlFor='user_name'>Name</label>
         <input
           type='text'
           name='user_name'
+          id='user_name'
           className='p-2 bg-slate-500 border-none outline-none'
           value={userName}
           onChange={(e) => setUserName(e.target.value)}
           required
         />
-        <label>Email</label>
+        <label htmlFor='user_email'>Email</label>
         <input
           type='email'
           name='user_email'
+          id='user_email'
           className='p-2 bg-slate-500 border-none outline-none'
           required
           value={userEmail}
           onChange={(e) => setUserEmail(e.target.value)}
         />
-        <label>Message</label>
+        <label htmlFor='message'>Message</label>
         <textarea
           name='message'
+          id='message'
           className='p-2 bg-slate-500 border-none outline-none'
           required
           onChange={(e) => setUserText(e.target.value)}
           value={userText}
         />
-        <div className='flex group'>
-          <button
-            type='submit'
-            value='Shoot'
-            onMouseOver={() => setRight((prev) => !prev)}
-            className={`p-4 border border-blue-950 bg-blue-500 mt-3 cursor-pointer ${
-              error
-                ? `group-hover:bg-red-400 : group-hover:${
-                    right ? 'ml-auto' : 'mr-auto'
-                  }`
-                : ''
-            }`}
-          >
+        <div className='relative group w-fit mt-4'>
+          <div className='absolute rounded-lg inset-0 bg-blue-400 blur-sm group-hover:blur-md'></div>
+          <button className='project-btn relative' type='submit' value='Shoot'>
             Shoot
           </button>
         </div>

@@ -15,9 +15,9 @@ function ContactMe({}: Props) {
       <div className='rounded-xl mt-16 p-8 top-[100px] w-full flex flex-col lg:flex-row h-3/4 gap-4 items-center'>
         <div className='flex-grow text-left lg:w-1/2'>
           <h1 className='text-2xl font-bold underline my-5'>Send Me a message</h1>
-          <h4 className='text-lg font-semibold'>
+          <p className='text-lg font-semibold'>
             Got a question or proposal, or just want to say hello? Go ahead
-          </h4>
+          </p>
           <p className='mt-6'>
             Thank You for visiting my portfolio, if you have any feedback or any
             query please free to shoot.
