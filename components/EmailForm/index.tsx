@@ -81,7 +81,7 @@ const EmailForm: React.FC = () => {
           value={userText}
         />
         <div className='relative group w-fit mt-4'>
-          <div className='absolute rounded-lg inset-0 bg-blue-400 blur-sm group-hover:blur-md'></div>
+          <div className='absolute rounded-lg inset-0 bg-blue-400 group-hover:blur-md'></div>
           <button className='project-btn relative' type='submit' value='Shoot'>
             Shoot
           </button>

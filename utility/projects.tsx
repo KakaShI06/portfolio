@@ -24,6 +24,18 @@ const projectsInformation = [
     techStack: ['Python', 'Moviepy', 'Selenium'],
   },
   {
+    name: 'Blog Website',
+    websiteLink: 'https://blogs.snapbit.in',
+    scourceLink: 'https://github.com/KakaShI06/blog-website-frontend',
+    smallDescription: 'Personalised Blog Website',
+    projectPic:
+      'https://res.cloudinary.com/doql129vl/image/upload/v1696262217/Screenshot_from_2023-10-02_21-21-15_ezmqzz.png',
+    description:
+      'Just a personalised blog website where I post programming stuff there,',
+    ready: true,
+    techStack: ['Nextjs', 'Reactjs', 'Markdown'],
+  },
+  {
     name: 'Youtube Clone',
     websiteLink: 'https://fastidious-brigadeiros-f6f4ec.netlify.app/',
     scourceLink: '',
@@ -33,16 +45,6 @@ const projectsInformation = [
     description: 'Created a youtube clone using Reactjs and material-ui',
     ready: true,
     techStack: ['Reactjs', 'RapidApi', 'Material-Ui'],
-  },
-  {
-    name: 'Blog Website',
-    websiteLink: '',
-    scourceLink: '',
-    smallDescription: 'Personalised Blog Website',
-    projectPic: '',
-    description: 'Just a personalised blog website',
-    ready: false,
-    techStack: ['Nextjs', 'Expressjs', 'Mongodb', 'Aws'],
   },
 ]
 
