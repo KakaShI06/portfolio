@@ -8,7 +8,7 @@ const experience = [
     points: [
       '<div>Developed main profile pages for Doctors, Clinics, and Hospitals that can proficiently be managed and streamlined the entire book appointment and call doctor process</div>',
       '<div>Developed listing pages named SRP pages for multiple doctors, clinics and Hospitals which can be filtered as per user preference.</div>',
-      '<div>Collaborated in building the Internal CRM Dashboard that uses <span>React</span> and <span>Redux</span> architecture which replace the dependency of external organisation, Salesforce</div>',
+      '<div>Collaborated in building the Internal CRM Dashboard that uses <span>React</span> and <span>Redux</span> architecture which replaces the dependency of external organisation, Salesforce</div>',
     ],
   },
   {
