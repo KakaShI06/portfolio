@@ -16,7 +16,7 @@ const experience = [
     duration: "June'21 - Nov'22",
     techstack: ['Reactjs', 'Django', 'Redux', 'Python', 'Gatsby', 'MySql'],
     summary:
-      '<p>Handled Multiple Services both Frontend and Backend which helps internal team, partner team and provide team</p>',
+      '<p>Build and Maintained the internal dashboard, and multiple micro-services from both frontend and backend side.</p>',
     points: [
       '<div>Developed UI of different standalone products for multiple partners such as Xiaomi, Shopee, VFX, etc.</div>',
       '<div>Collaborated in automation for creating a whole policy creation flow that automates more than <span>5k products</span> for multiple partners..</div>',
