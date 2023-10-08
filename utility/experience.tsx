@@ -4,11 +4,11 @@ const experience = [
     duration: "Nov'22 - Present",
     techstack: ['Reactjs', 'Nextjs', 'SEO', 'Redux'],
     summary:
-      '<p>Collaborated in migrating the frontend service, optimizing <span>Web-Vitals</span>, and improving <span>SEO</span> scores, elevating the overall online visibility and ranking of webpages with the help of <span>server-side rendering</span> of <span>Nextjs</span>. Also, provided a seamless experience for around <span>16 million</span> daily users.</p>',
+      '<p>Collaborated in migrating the frontend service from Angular to Nextjs to enhance the performance, optimizing <span>Web-Vitals</span>, and improving <span>SEO</span> scores, elevating the overall online visibility and ranking of webpages with the help of <span>server-side rendering</span> of <span>Nextjs</span>. Also, provided a seamless experience for around <span>16 million</span> daily users.</p>',
     points: [
       '<div>Developed main profile pages for Doctors, Clinics, and Hospitals that can proficiently be managed and streamlined the entire book appointment and call doctor process</div>',
       '<div>Developed listing pages named SRP pages for multiple doctors, clinics and Hospitals which can be filtered as per user preference.</div>',
-      '<div>Collaborating in developing a frontend service for Internal dashboard which involve <span>React</span> and <span>Redux</span> that can be replace sales-force</div>',
+      '<div>Collaborated in building the Internal CRM Dashboard that uses <span>React</span> and <span>Redux</span> architecture which replace the dependency of external organisation, Salesforce</div>',
     ],
   },
   {
