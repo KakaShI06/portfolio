@@ -3,7 +3,7 @@ const experience = [
     companyName: "KreditBee",
     duration: "Jan'24 - Present",
     techstack: ["Javascript", "Python", "Django"],
-    summary: "Just Started",
+    summary: "<p class='text-center mt-4'> Just Started </p>",
     points: [],
   },
   {
