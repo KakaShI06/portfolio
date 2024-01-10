@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:
+
+# Allow Google to crawl all pages
+User-agent: Googlebot
+Disallow:
