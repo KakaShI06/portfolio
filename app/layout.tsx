@@ -5,15 +5,16 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Ujjval | Portfolio',
-  description: 'Portfolio created by Ujjval Priyadarshi',
+  title: 'Ujjval Priyadarshi | Portfolio',
+  description: 'Portfolio Website created by Ujjval Priyadarshi, Software Developer based of India.',
   icons: '/logo/white.png',
   openGraph: {
     type: 'website',
     siteName: 'Personal Portfolio',
     title: 'Portfolio',
-    url: 'https://res.cloudinary.com/doql129vl/image/upload/v1694429574/kasol_obdhff.jpg',
+    url: 'https://ujjval.snapbit.in',
     description: 'Personalised Portfolio created by Developer Ujjval Priyadarshi',
+    images: 'https://res.cloudinary.com/doql129vl/image/upload/v1694429574/kasol_obdhff.jpg'
   },
   alternates: {
     canonical: 'https://ujjval.snapbit.in'
